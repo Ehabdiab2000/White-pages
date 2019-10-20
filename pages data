@@ -1,0 +1,23 @@
+
+service provider
+ - title
+ - date and time
+ - id
+ -images
+ -price
+ -service / item /category
+ - description
+
+
+
+ owner :
+ - city
+ - phone number
+
+feed back
+contact
+
+ function :
+    login  - forget pass  - register  - add company -add service
+    - filter
+    -search

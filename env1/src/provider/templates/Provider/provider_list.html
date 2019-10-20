@@ -1,0 +1,6 @@
+<h1>our Providers </h1>
+
+
+{%for provider in provider_list %}
+  <h2><a href="{% url 'provider:provider_detail'provider.slug %}">{{Provider}}</a></h2>
+{%endfor%}

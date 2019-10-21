@@ -12,6 +12,7 @@ class Provider(models.Model):
     category = models.ForeignKey('Category', on_delete= models.SET_NULL, null=True)
     created = models.DateTimeField(default=timezone.now)
     service = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='main_Provider/', blank=True, null=True)
 
     slug = models.SlugField(blank=True, null=True)
 

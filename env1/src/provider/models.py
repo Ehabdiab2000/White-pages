@@ -3,10 +3,13 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from django.utils.text import slugify
 # Create your models here.
+
+
 class Provider(models.Model):
     # will contain all provider info
 
     name = models.CharField(max_length=100)
+    address = models.CharField(max_length=100,null= True, blank= True)
     owner = models.ForeignKey(User,on_delete=models.CASCADE )
     description = models.TextField(max_length=500)
     category = models.ForeignKey('Category', on_delete= models.SET_NULL, null=True)

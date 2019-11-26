@@ -19,10 +19,7 @@ def providerlist(request,category_slug = None):
         providerlist = providerlist.filter(
             Q(name__icontains=search_query) |
             Q(description__icontains=search_query)|
-            Q(category__category__name__icontains  = search_query)
-
-
-    )
+            Q(category__category__name__icontains  = search_query))
 
     template = 'provider/provider_list.html'
 
@@ -36,5 +33,5 @@ def providerdetail(request,provider_slug):
     providerdetail=get_object_or_404(Provider,slug=provider_slug)
     providerimage =  ProviderImages.objects.filter(provider = providerdetail)
     template ='provider/provider_detail.html'
-    context = {'provider_detail': providerdetail, 'productimage' : providerimage}
+    context = {'provider_detail': providerdetail, 'provider_image' : providerimage}
     return render(request, template, context)

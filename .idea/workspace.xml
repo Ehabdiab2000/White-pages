@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79b662a5-e91b-4f6f-9d9c-74bbbf62ae73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/env1/src/provider/templates/Provider/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/provider/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/templates/Provider/provider_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/provider/templates/Provider/provider_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/templates/Provider/provider_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/provider/templates/Provider/provider_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/templates/provider_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/templates/provider_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/provider/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/provider/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/provider/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env1/src/whitePages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/env1/src/whitePages/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="79b662a5-e91b-4f6f-9d9c-74bbbf62ae73" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +342,7 @@
       <workItem from="1571577600054" duration="51198000" />
       <workItem from="1572031492191" duration="3945000" />
       <workItem from="1572579309071" duration="6627000" />
-      <workItem from="1574414993395" duration="32326000" />
+      <workItem from="1574414993395" duration="32488000" />
     </task>
     <task id="LOCAL-00001" summary="before pages">
       <created>1571594139333</created>
@@ -364,13 +351,20 @@
       <option name="project" value="LOCAL" />
       <updated>1571594139334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working 1">
+      <created>1574795436824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574795436824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129798000" />
+    <option name="totallyTimeSpent" value="129960000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -433,7 +427,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="before pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="before pages" />
+    <MESSAGE value="working 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="working 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages data">
